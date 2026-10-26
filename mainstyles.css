@@ -1,0 +1,392 @@
+
+/* GENERAL PAGE SETTINGS */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #252b33;
+    background-color: white;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+.section-space {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.text-muted {
+    color: #6c757d;
+}
+
+
+/* NAVIGATION BAR */
+
+.navbar-brand {
+    font-size: 1rem;
+}
+
+.brand-initials {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: #0d6efd;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.brand-name {
+    white-space: normal;
+}
+
+.nav-photo {
+    width: 38px;
+    height: 38px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 2px solid #0d6efd;
+    flex-shrink: 0;
+}
+
+.navbar .nav-link {
+    margin-left: 8px;
+}
+
+.navbar .nav-link:hover {
+    color: #8bb8ff;
+}
+
+
+/* HOME PAGE HERO */
+
+.home-hero {
+    padding: 75px 0;
+    background-color: #f0f5ff;
+}
+
+.home-hero h1 {
+    color: #172b4d;
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    line-height: 1.2;
+}
+
+.career-title {
+    color: #0d6efd;
+    font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+    line-height: 1.5;
+}
+
+.home-hero .lead {
+    font-size: 1.05rem;
+    color: #4c5666;
+}
+
+.home-photo-area {
+    padding: 15px;
+}
+
+.home-photo {
+    width: 250px;
+    height: 250px;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 6px solid white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+}
+
+
+/* INTEREST CARDS */
+
+.interest-card {
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #e1e6ee;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.interest-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.interest-card h3 {
+    margin-top: 12px;
+    font-size: 1.2rem;
+}
+
+.interest-card p {
+    margin-bottom: 0;
+    color: #626b78;
+}
+
+.interest-icon {
+    color: #0d6efd;
+    font-size: 2.2rem;
+}
+
+
+/* PROJECT CARDS */
+
+.project-card {
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #e0e5ed;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.04);
+}
+
+.project-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    margin-bottom: 18px;
+    border-radius: 12px;
+    color: white;
+    font-size: 1.8rem;
+}
+
+.project-card h3 {
+    font-size: 1.3rem;
+}
+
+.project-card p {
+    color: #626b78;
+}
+
+.closing-text {
+    max-width: 700px;
+}
+
+
+/* INNER PAGE HEADINGS */
+
+.page-banner {
+    padding: 55px 0;
+    background-color: #eaf1ff;
+}
+
+.page-banner h1 {
+    color: #172b4d;
+    font-size: clamp(2rem, 4vw, 2.7rem);
+}
+
+.page-banner p {
+    margin-bottom: 0;
+    color: #566274;
+}
+
+
+/* ABOUT PAGE */
+
+.about-photo {
+    width: 230px;
+    height: 230px;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 4px solid #e4ecfb;
+}
+
+.skill-card {
+    padding: 25px;
+    border: 1px solid #e0e5ed;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.skill-card h3 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.skill-card ul {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.skill-card li {
+    margin-bottom: 8px;
+}
+
+
+/* GALLERY PAGE */
+
+.video-container {
+    max-width: 850px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #111;
+    border-radius: 12px;
+}
+
+.motivation-video {
+    display: block;
+    width: 100%;
+    max-height: 480px;
+    background-color: #111;
+}
+
+.gallery-card {
+    overflow: hidden;
+    background-color: white;
+    border: 1px solid #e1e6ee;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
+}
+
+.gallery-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.gallery-caption {
+    padding: 20px;
+}
+
+.gallery-caption h3 {
+    font-size: 1.15rem;
+}
+
+.gallery-caption p {
+    margin-bottom: 0;
+    color: #626b78;
+}
+
+
+/* CONTACT PAGE */
+
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.contact-item > i {
+    color: #0d6efd;
+    font-size: 1.5rem;
+}
+
+.contact-item h3 {
+    font-size: 1.05rem;
+    margin-bottom: 4px;
+}
+
+.contact-item p {
+    margin-bottom: 0;
+    color: #626b78;
+    overflow-wrap: anywhere;
+}
+
+.contact-item a {
+    overflow-wrap: anywhere;
+}
+
+.contact-form-card {
+    padding: 30px;
+    border: 1px solid #e0e5ed;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.05);
+}
+
+.contact-form-card h2 {
+    font-size: 1.6rem;
+}
+
+.form-control {
+    padding: 11px 12px;
+}
+
+.form-control:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.15);
+}
+
+
+/* FOOTER */
+
+footer {
+    font-size: 0.95rem;
+}
+
+.footer-link {
+    display: inline-block;
+    margin: 4px 8px;
+    color: #dbe7ff;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.social-link {
+    color: #dbe7ff;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    color: white;
+}
+
+
+/* SMALL SCREEN ADJUSTMENTS */
+
+@media (max-width: 767px) {
+    .home-hero {
+        padding: 45px 0;
+        text-align: center;
+    }
+
+    .home-hero .btn {
+        margin-top: 5px;
+    }
+
+    .home-photo {
+        width: 190px;
+        height: 190px;
+    }
+
+    .page-banner {
+        padding: 40px 15px;
+    }
+
+    .contact-form-card {
+        padding: 22px;
+    }
+}
+
+@media (max-width: 420px) {
+    .brand-name {
+        max-width: 150px;
+        font-size: 0.85rem;
+        line-height: 1.2;
+    }
+
+    .nav-photo {
+        width: 32px;
+        height: 32px;
+    }
+
+    .brand-initials {
+        width: 32px;
+        height: 32px;
+    }
+}
